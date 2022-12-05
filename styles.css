@@ -16,6 +16,24 @@ h1.iconLogo{
     margin-bottom: 0;
 }
 
+.headerColor{
+    background-color: rgb(18, 21, 23);
+}
+
+.lowerHeaderColor{
+    background-color: rgb(31, 33, 51);
+}
+
+.navbarLinkFont{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.navbarLinkFont:hover {
+    color: rgb(46, 157, 231);
+}
+
 .container{
     max-width: 1068px;
     margin: auto;
@@ -31,3 +49,14 @@ h1.iconLogo{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.largeFont{
+    font-size: 30px;
+}
+
+.productFont{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
