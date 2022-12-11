@@ -39,6 +39,7 @@ body {
   .column-image-large {
     width: 400px;
     height: 500px;
+    border-radius: 25px;
   }
 
   .row:after {
@@ -48,6 +49,16 @@ body {
     text-align: center;
   }
   
+  .column-footer {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+    
+  }
+
+
+
   .heading {text-align: center;
             background-color: #ece6e6;
             padding: 10px;
@@ -63,16 +74,37 @@ body {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 15px;
   }
   
-
+  .icon {font-size: 75px;
+         text-align: justify
+         
+  }
 
   .footer {text-align: left;
     padding: 10px;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    background-color:#ece6e6;
   }
   
+  .footer-links {
+    list-style-type:none;
+    padding:0px;
+    display:table;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+  }
+
+  .footer-links li { display: inline-table;}
+  
+  .footer-links li a { color:rgb(0, 0, 0); 
+                       margin: 15px;
+
+  }
   
   .navbar {
     width: 100%;
