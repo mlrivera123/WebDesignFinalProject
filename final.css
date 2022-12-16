@@ -296,6 +296,10 @@ body {
     background-color: #094715;
     padding: 5px;
     color: #ffffff;
+    background-image: url(computerPhotos/snow.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
   .p-heading{
@@ -312,6 +316,17 @@ body {
     font-style:italic;
     margin-bottom: 0;
     color: #000000;
+  }
+
+  .card-computer{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 650px;
   }
 
   
