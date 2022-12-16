@@ -259,15 +259,25 @@ body {
   }
 
   .priceLineThrough{
-    color: #d32121;
-    font-size: xx-large;
+    color: #717171;
+    font-size: 20px;
     text-decoration: line-through;
+    padding: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
 
   .price{
-    color: #807e7e;
-    font-size: xx-large;
-  }
+    color: #328f07;
+    font-size: 30px;
+    padding: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  } 
   
   .column button{
     border: none;
