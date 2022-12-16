@@ -71,6 +71,7 @@ body {
     width: 400px;
     height: 500px;
     border-radius: 25px;
+
   }
 
   .row:after {
@@ -174,6 +175,81 @@ body {
     background-color: #ece6e6;
   }
   
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    float: left;
+    font-size: 20px; 
+    padding: 15px; 
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ece6e6;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #757171;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #b8b6b6;
+  }
+  
+  .form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
   
   @media screen and (max-width: 700px) {
     .navbar a {
