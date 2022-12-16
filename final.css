@@ -181,6 +181,52 @@ body {
       display: block;
     }
   }
+
+  .priceLineThrough{
+    color: #d32121;
+    font-size: xx-large;
+    text-decoration: line-through;
+  }
+
+  .price{
+    color: #807e7e;
+    font-size: xx-large;
+  }
   
+  .column button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .headingComputer 
+  {text-align: center;
+    background-color: #094715;
+    padding: 5px;
+    color: #ffffff;
+}
+
+  .p-heading{
+    text-align: center;
+    margin-left: 20%;
+    width: 60%;
+    margin-right: 20%;
+    font-size: 20px;
+    color: #9b9898;
+  }
+
+  .xxl{
+    font-size: 50px;
+    font-style:italic;
+    margin-bottom: 0;
+    color: #000000;
+  }
+
   
   
