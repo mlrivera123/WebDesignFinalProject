@@ -52,7 +52,6 @@ body {
     padding: 10px;
     text-align: center;
   }
-  
 
   .column-text-left {
     float: left;
@@ -329,5 +328,98 @@ body {
     height: 650px;
   }
 
+  .checkoutCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    margin-left: 0;
+    margin-right: auto;
+    height: 200px;
+  }
+  .checkoutImg{
+    width: 100px;
+  }
+
+  .phoneImg{
+    width: 200px;
+    height: 300px;
+  }
+
+  .consoleImg{
+  height: 300px;  
+  }
+
+  .largeColumn {
+    float: left;
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .largeColumn button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
   
-  
+  /*Login page css */
+
+
+  a, button {cursor: pointer;          
+  }
+
+  @keyframes pan {
+    100% { background-position: 15% 50%; }
+
+  }
+
+
+  .login-card {width: 90%;
+               padding: 60px 30px 44px;
+               border-radius: 24px;
+               background: #ffffff;
+               text-align: center;
+  }
+
+  .login-card > h2 {margin: 0 0 12px;
+                    font-weight: 500;
+                    font-size: 50px;
+                    color: rgba(0, 0, 0, 0.38)
+  }
+
+.login-form {width: 100%;
+             margin: 0;
+             display: grid;
+             gap: 16px;
+}
+
+.login-form > a {color: #215ce7;
+
+}
+
+.login-form > input,
+.login-form > button { height: 56px; 
+                       border-radius: 8px;
+}
+
+
+.login-form > input {border: 2px solid rgba(152, 127, 240, 0.733);
+
+}
+
+
+.login-form > button {width: 100%;
+                      height: 56px;
+                      border: 0;
+                      background: #216ce7;
+                      color: #f9f9f9;
+                      font-weight: 600;
+}

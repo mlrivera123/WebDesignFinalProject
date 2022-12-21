@@ -5,21 +5,177 @@
   </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://kit.fontawesome.com/241677234d.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <link rel="stylesheet" href="final.css">
 
 <body>
-<header>
+
+<header class="header">
+  <h1>ReusedTech</h1>
+</header>
+
+<nav>
+  <div class="navbar">
+    <a class="active" href="Homepage.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+    <a href="About Us.html">About Us</a> 
+    <a href="Reviews.html">Reviews</a>
+    <a href="Help.html">Help</a>
+    <a href="">Sell</a>
+    <div class="dropdown">
+      <button class="dropbtn">Buy <i class="fa fa-caret-down"></i>
+      </button> 
+      <div class="dropdown-content">
+        <a href="phones.html">Phones</a>
+        <a href="computers.html">Computers</a>
+        <a href="consoles.html">Consoles</a>
+      </div>
+    </div>
+    <a href="#" class="split"><i class="fa-solid fa-right-to-bracket"></i> Login/Signup </a>
+    <a href="#" class="split"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+  </div>
+</nav>  
+
+<section class="headingComputer">
+  <h1>Shop Christmas Discounts! <i class="fa-solid fa-gift"></i></h1>
+</section>
+
+
+<section>
     <div class="row">
-        <div class="column-text-left">
-            <h3>ReusedTech</h3>
-        </div>
-        <div class="column">
-            <h2 class="title">Reviews</h2>
-        </div>
-        <div class="column">
-            <div class="navbar">
-                <a class="split" href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Homepage.html "><i class="fa fa-fw fa-home"></i> Home</a>
+        <div class="two-column">
+            <div class="row">
+              <div class="two-column">
+                <div class="card">
+                  <h3>AN EXCELLENT EXPERIENCE!</h3><!----->
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i><!----->
+                  <p>I got a great price for my phone and the whole experience was excellent, from phone pick-up by DHL to the money in the bank 
+                    a few days later . . .Date of experience: 23 November 2022</p>
+                </div>
+              </div>
+            
+              <div class="two-column">
+                <div class="card">
+                  <h3>Lovely phone!</h3>
+                  <i class="fa-solid fa-star"></i><!----->
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half"></i> <!----->
+                  <p>Yes I was very happy with the phone I purchased from ReusedTech. It is good to get a reconditioned phone and keep the price low.
+                     Thank you Date of experience: 08 December 2022</p>
+                </div>
+              </div>
+
+              <div class="two-column">
+                <div class="card">
+                  <h3>Used iPhone 11</h3>
+                  <i class="fa-solid fa-star"></i><!----->
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i> <!----->
+                  <p>Product as described. Competitive price. Second time using ReusedTech and highly recommend. Fast secure delivery.
+                    Date of experience: 01 December 2022</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        <div class="two-column">
+            <div class="card-big">
+                <h2>Please Leave a Review</h2>
+                <div class="form-container">
+                  <form action="/action_page.php">
+                    <label for="pname">Product name</label>
+                    <input type="text" id="pname" name="productname" placeholder="Your product..">
+                
+                    <label for="dateofpurchase">Date of purchase</label>
+                    <input type="text" id="date_of_purchase" name="" placeholder="Your date of purchase..">
+                
+                    <label for="Purchase rating">Purchase rating</label>
+                    <input type="text" id="rating" name="rating" placeholder="How would you rate your purchase from ReusedTech..">
+                    </select>
+                
+                    <label for="Product">Tell us about your purchase</label>
+                    <textarea id="Product" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                  </form>
+                </div>
             </div>
         </div>
     </div>
-</header>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+    <section>
+      <div class="row">
+        <div class="column-footer">
+          <h3>Contact Us</h3>
+          <p>Harsh Saini</p>
+          <p><i class="fa fa fa-envelope"></i> harsh.saini3@mail.dcu.ie  </p>
+          <p>Max Rivera</p>
+          <p><i class="fa fa fa-envelope"></i> max.rivera4@mail.dcu.ie  </p>
+          <p>Alex James Walker</p>
+          <p><i class="fa fa fa-envelope"></i> alex.walker3@mail.dcu.ie  </p>
+          <p>Cian Smyth</p>
+          <p><i class="fa fa fa-envelope"></i> cian.smyth55@mail.dcu.ie  </p>
+        </div>
+        <div class="column-footer">
+          <h3>Quick Links</h3>
+            <p><a href="">Latest Tech</a></p>
+            <p><a href="">Sell your old Tech</a></p>
+            <p><a href="">Gift Ideas</a></p>
+            <p><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Reviews.html">Reviews</a></p>
+            <p><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Help.html">Help</a></p>
+            <p><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/About%20Us.html">About Us</a></p>
+        </div>
+        <div class="column-footer">
+          <h3>Payment Methods</h3>
+          <p class="icon">
+            <i class="fa-brands fa-apple-pay"></i>
+            <i class="fa-brands fa-cc-paypal"></i>
+            <i class="fa-brands fa-cc-visa"></i>
+          </p>
+          <p class="icon">
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-google-pay"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <ul class="footer-links">
+          <li><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Homepage.html">Home</a></li>
+          <li><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/About%20Us.html">About Us</a></li>
+          <li><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Reviews.html">Reviews</a></li>
+          <li><a href="">Buy</a></li>
+          <li><a href="">Sell</a></li>
+          <li><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Help.html">Help</a></li>
+          <li><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Help.html">Contact Us</a></li>
+      </ul>
+    </section>
+    
+    </footer>
+    
+    </body>
+    </html> 
