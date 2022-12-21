@@ -1,7 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Homepage</title>  
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <title>Cart</title>  
+
+    <script>
+      $(document).ready(function(){
+        $("#LenovoCard").hide();
+        $("#AsusCard").hide();
+        $("#MacbookCard").hide();
+        
+        $("#remove-Lenovo").click(function(){
+          $("#LenovoCard").hide();
+        });
+        $("#remove-Macbook").click(function(){
+          $("#MacbookCard").hide();
+        });
+        $("#remove-Asus").click(function(){
+          $("#AsusCard").hide();
+        });
+        $("#show").click(function(){
+          $("#AsusCard").show();
+        });
+      });
+    </script>
+
   </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://kit.fontawesome.com/241677234d.js" crossorigin="anonymous"></script>
@@ -30,9 +53,37 @@
       </div>
     </div>
     <a href="#" class="split"><i class="fa-solid fa-right-to-bracket"></i> Login/Signup </a>
-    <a href="#" class="split"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+    <a href="cart.html" class="split"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
   </div>
 </nav>  
+
+<div class="card">
+  <h2>Checkout Cart</h1>
+  <div class="checkoutCard" id="MacbookCard">
+    <h4>Macbook Air</h2>
+    <img class="checkoutImg" src="computerPhotos/macbookAirM2.jpeg">
+    <p>$1,999</p>
+    <button id="remove-Macbook">Remove</button>
+  </div>
+
+  <div class="checkoutCard" id="LenovoCard">
+    <h4>Lenovo</h2>
+    <img class="checkoutImg" src="computerPhotos/Lenovo.jpeg">
+    <p>$699</p>
+    <button id="remove-Lenovo">Remove</button>
+  </div>
+
+  <div class="checkoutCard" id="AsusCard">
+    <h4>Asus Aspire 5</h2>
+    <img class="checkoutImg" src="computerPhotos/AsusAspire5.jpeg">
+    <p>$799</p>
+    <button id="remove-Asus">Remove</button>
+  </div>
+</div>
+
+<button id="show">show</button>
+<button>hide</button>
+
 
 <footer class="footer">
 
