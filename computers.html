@@ -6,90 +6,248 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<!--     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> -->
     <!-- Cart icon from google fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="final.css">
+    <script src="https://kit.fontawesome.com/241677234d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
 </head>
 
 <body>
 
-    <!-- Logo and Cart -->
-    <div class="headerColor">
-      <div class="container"> <!-- Container setting a margin -->
-        <nav class="navbar">
-            <a class="navbar-brand navbarLinkFont largeFont" href="index.html">ReusedTech</a>
-            <div class="container3">
-            <button>
-              <span id="cart_icon" class="material-symbols-outlined">shopping_cart
-                <h1 class="iconLogo">Cart</h1>
-              </span>
-            </button>
-            <button>
-              <span class="material-symbols-outlined">login
-                <h1 class="iconLogo">Login</h1>
-              </span>
-            </button>
-          </div>
-        </nav>
-        </div> <!-- Container -->
-        </div> <!-- Outer Div -->
+  <header class="header">
+    <h1>ReusedTech</h1>
+  </header>
 
-    <!-- Links -->
-    <div class="lowerHeaderColor">
-    <div class="container2"> <!-- Container setting a margin -->
-    <nav class="navbar">
-      <a class="nav-item nav-link navbarLinkFont" href="index.html">Home</a>
-      <a class="nav-item nav-link navbarLinkFont" href="computers.html">Computers</a>
-      <a class="nav-item nav-link navbarLinkFont" href="phones.html">Phones</a>
-    </nav>
-    </div> <!-- Container -->
-    </div> <!-- Lower Header -->
+  <nav>
+    <div class="navbar">
+      <a class="active" href="Homepage.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+      <a href="About Us.html">About Us</a> 
+      <a href="Reviews.html">Reviews</a>
+      <a href="Help.html">Help</a>
+      <a href="">Sell</a>
+      <div class="dropdown">
+        <button class="dropbtn">Buy <i class="fa fa-caret-down"></i>
+        </button> 
+        <div class="dropdown-content">
+          <a href="phones.html">Phones</a>
+          <a href="computers.html">Computers</a>
+          <a href="consoles.html">Consoles</a>
+        </div>
+      </div>
+      <a href="#" class="split"><i class="fa-solid fa-right-to-bracket"></i> Login/Signup </a>
+      <a href="cart.html" class="split"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+    </div>
+  </nav>  
 
+  <section class="headingComputer">
+    <h1>Shop Christmas Discounts! <i class="fa-solid fa-gift"></i></h1>
+  </section>
 
+<header class="header">
+  <h2 class="xxl"><i class="fa-solid fa-recycle"></i>Refurbished Computers from ReusedTech</h2>
+</header>
 
-    <h1>Computers</h1>
+<p class="p-heading">
+  Browse refurbished computers from ReusedTech, such as the new 2022 M2 Macbook Air, Asus Aspire, HP Pavillion 5 and more.
+  All our computers have been fully tested and come with a free 12 month warrenty. Our computers are guarenteed to work
+  as good as new for an affordable price point.
+</p>
 
-    <!-- Example Card -->
-    <div class="container-md">
+  <section>
     <div class="row">
-            
-    <div class="col">
-    <div class="card" style="width: 24rem; margin: auto;">
-        <img class="card-img-top" src="computerPhotos/AsusAspire5.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Asus Aspire 5</h5>
-          <p class="card-text productFont">Powerful Productivity: 11th Generation Intel Core i3-1115G4 Dual Core processor delivers unmatched speed and intelligence, enabling impressive creating, productivity, and gaming experiences. With Turbo Boost Technology, get up to 4.1GHz for your high-demand applications.Connectivity Technology: Wi-Fi, Bluetooth, HDMI.</p>
-          <a href="asus.html" class="btn btn-primary">More Details</a>
+      <div class="column">
+        <div class="card-computer">
+          <img class="column-image" src="computerPhotos/macbookAirM2.jpeg" alt="Macbook">
+        <h2>Macbook Air</h2>
+        <div> <p class="price">$1,999</p> <p class="priceLineThrough">$2,999</p> </div>
+        <p><button>Add to Cart</button></p>
+        <p>The M2 chip starts the next generation of Apple silicon, with even more of the speed and power efficiency of M1. 
+          So you can get more done faster with a more powerful 8 core CPU. Create captivating images and animations with up 
+          to a 10-core GPU. Work with more streams of 4K and 8K ProRes video with the high performance media engine. And keep 
+          working — or playing — all day and into the night with up to 18 hours of battery life.</p>
         </div>
       </div>
-    </div> <!-- col -->
-
-    <div class="col">
-      <div class="card" style="width: 24rem; margin: auto;">
-        <img class="card-img-top" src="computerPhotos/Lenovo.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Lenovo</h5>
-          <p class="card-text">Powerful Productivity: 11th Generation Intel Core i3-1115G4 Dual Core processor delivers unmatched speed and intelligence, enabling impressive creating, productivity, and gaming experiences. With Turbo Boost Technology, get up to 4.1GHz for your high-demand applications.Connectivity Technology: Wi-Fi, Bluetooth, HDMI.</p>
-          <a href="#" class="btn btn-primary">More Details</a>
-        </div>
-      </div>
-    </div> <!-- col -->
-
-    <div class="col">
-      <div class="card" style="width: 24rem; margin: auto;">
-        <img class="card-img-top" src="computerPhotos/macbookAirM2.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Macbook Air M2</h5>
-          <p class="card-text">Powerful Productivity: 11th Generation Intel Core i3-1115G4 Dual Core processor delivers unmatched speed and intelligence, enabling impressive creating, productivity, and gaming experiences. With Turbo Boost Technology, get up to 4.1GHz for your high-demand applications.Connectivity Technology: Wi-Fi, Bluetooth, HDMI.</p>
-          <a href="#" class="btn btn-primary">More Details</a>
-        </div>
-      </div>
-    </div><!-- col -->
     
-    </div><!-- row  -->
-    </div><!-- container  -->
+      <div class="column">
+        <div class="card-computer">
+        <img class="column-image" src="computerPhotos/AsusAspire5.jpeg" alt="Asus">
+        <h2>Asus Aspire</h2>
+        <div> <p class="price">$799</p> <p class="priceLineThrough">$499</p> </div>
+        <p><button>Add to Cart</button></p>
+        <p>Powerful Productivity: 11th Generation Intel Core i3-1115G4 Dual Core processor delivers 
+          unmatched speed and intelligence, enabling impressive creating, productivity, and gaming experiences. 
+          With Turbo Boost Technology, get up to 4.1GHz for your high-demand applications.Connectivity Technology: 
+          Wi-Fi, Bluetooth, HDMI.</p>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card-computer">
+        <img class="column-image" src="computerPhotos/Lenovo.jpeg" alt="Lenovo">
+        <h2>Lenovo</h2>
+        <div> <p class="price">$699</p> <p class="priceLineThrough">$399</p> </div>
+        <p><button>Add to Cart</button></p>
+        <p>With AMD Ryzen 5000 Series Mobile Processors with Radeon Graphics, the ThinkBook 15 Gen 3 (AMD) 
+          lets you work on demanding applications with ease. Eight mobile cores enable unparalleled responsiveness and 
+          multitasking experience. And with 50% larger fans than the previous generation, dual heat pipes, and better thermal capacity, 
+          you can push your processor to its fullest potential. Combine this with AI-enabled Intelligent Cooling, you won't have to 
+          worry about overheating.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="column">
+        <div class="card-computer">
+        <img class="column-image" src="computerPhotos/HPPavilion15.jpeg" alt="Lenovo">
+        <h2>HP Pavilion 5 Laptop</h2>
+        <div> <p class="price">$499</p> <p class="priceLineThrough">$399</p> </div>
+        <p><button>Add to Cart</button></p>
+        <p>With its sleek, stylish design, full-sized keyboard, and numeric keypad, this eye-catching compact HP Pavilion Laptop looks as 
+          good as it performs so you can work from anywhere. Enjoy vibrant, crystal-clear images with 178-degree viewing angles on a 
+          15.6-inch diagonal, FHD (1920 x 1080), IPS, micro-edge, BrightView screen (1), plus experience outstanding performance and 
+          visuals thanks to this laptop's 12th Generation Intel Core i7-1255U processor (2) and Intel Iris Xe graphics (3). </p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card-computer">
+        <img class="column-image" src="computerPhotos/MicrosoftSurface.jpeg">
+        <h2>Microsoft Surface</h2>
+        <div> <p class="price">$599</p> <p class="priceLineThrough">$399</p> </div>
+        <p><button>Add to Cart</button></p>
+        <p>Sleek and light with performance you can count on. A sleek, portable Surface Laptop with 12.4" PixelSense™ 
+          touchscreen1 and great typing experience with precision trackpad, plus the ports you need.
+          Now with an improved HD camera to look your best on video calls, new Windows 11 experiences,
+          [2] long battery life,[3] and a performance boost for the things you love to do. With 11th Gen Intel® 
+          speed for day-to-day apps, streaming, and casual gaming. </p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card-computer">
+        <img class="column-image" src="computerPhotos/HP14HDLaptop.jpeg">
+        <h2>HP 14" HD Laptop</h2>
+        <div> <p class="price">$350</p> <p class="priceLineThrough">$250</p> </div>
+        <p><button>Add to Cart</button></p>
+        <p> Equipped with Intel 10th Gemini Lake Refresh series N4120 chip,
+           This high-definition notebook computer runs smoothly, with super-fast processing speed, and can easily cope
+            with various productivity software without stuttering.Windows 11 Pro is pre-installed and licensed;turbo 
+            frequency up to 2.6GHz, 14nm quad-core, and four-thread fast processing.</p>
+          </div>
+      </div>
+    
+    </div>
+
+
+    
+    </section>
+
+    <section class="heading">
+      <h2>Thanks for helping us reach a community of 100K!</h2>
+      <h5>According to customer feedback, 96% of our customers are happy with our service.</h5>
+    </section>
+
+<section>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>AN EXCELLENT EXPERIENCE!</h3><!----->
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i><!----->
+      <p>I got a great price for my phone and the whole experience was excellent, from phone pick-up by DHL to the money in the bank 
+        a few days later . . .Date of experience: 23 November 2022</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Lovely phone!</h3>
+      <i class="fa-solid fa-star"></i><!----->
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star-half"></i> <!----->
+      <p>Yes I was very happy with the phone I purchased from swappie. It is good to get a reconditioned phone and keep the price low.
+         Thank you Date of experience: 08 December 2022</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Used iPhone 11</h3>
+      <i class="fa-solid fa-star"></i><!----->
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i> <!----->
+      <p>Product as described. Competitive price. Second time using swappie and highly recommend. Fast secure delivery.
+        Date of experience: 01 December 2022</p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+    <footer class="footer">
+
+      <section>
+        <div class="row">
+          <div class="column-footer">
+            <h3>Contact Us</h3>
+            <p>Harsh Saini</p>
+            <p><i class="fa fa fa-envelope"></i> harsh.saini3@mail.dcu.ie  </p>
+            <p>Max Rivera</p>
+            <p><i class="fa fa fa-envelope"></i> max.rivera4@mail.dcu.ie  </p>
+            <p>Alex James Walker</p>
+            <p><i class="fa fa fa-envelope"></i> alex.walker3@mail.dcu.ie  </p>
+            <p>Cian Smyth</p>
+            <p><i class="fa fa fa-envelope"></i> cian.smyth55@mail.dcu.ie  </p>
+          </div>
+          <div class="column-footer">
+            <h3>Quick Links</h3>
+              <p><a href="">Latest Tech</a></p>
+              <p><a href="">Sell your old Tech</a></p>
+              <p><a href="">Gift Ideas</a></p>
+              <p><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Reviews.html">Reviews</a></p>
+              <p><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Help.html">Help</a></p>
+              <p><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/About%20Us.html">About Us</a></p>
+          </div>
+          <div class="column-footer">
+            <h3>Payment Methods</h3>
+            <p class="icon">
+              <i class="fa-brands fa-apple-pay"></i>
+              <i class="fa-brands fa-cc-paypal"></i>
+              <i class="fa-brands fa-cc-visa"></i>
+            </p>
+            <p class="icon">
+              <i class="fa-brands fa-cc-mastercard"></i>
+              <i class="fa-brands fa-google-pay"></i>
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <section>
+        <ul class="footer-links">
+            <li><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Homepage.html">Home</a></li>
+            <li><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/About%20Us.html">About Us</a></li>
+            <li><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Reviews.html">Reviews</a></li>
+            <li><a href="">Buy</a></li>
+            <li><a href="">Sell</a></li>
+            <li><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Help.html">Help</a></li>
+            <li><a href="file:///C:/Users/saini/OneDrive/Documents/GitHub/WebDesignFinalProject/Help.html">Contact Us</a></li>
+        </ul>
+      </section>
+      
+      </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
