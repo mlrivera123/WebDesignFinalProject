@@ -344,6 +344,30 @@ body {
 
   .phoneImg{
     width: 200px;
+    height: 300px;
+  }
+
+  .consoleImg{
+  height: 300px;  
+  }
+
+  .largeColumn {
+    float: left;
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .largeColumn button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
   }
   
   /*Login page css */
