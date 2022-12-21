@@ -258,15 +258,25 @@ body {
   }
 
   .priceLineThrough{
-    color: #d32121;
-    font-size: xx-large;
+    color: #717171;
+    font-size: 20px;
     text-decoration: line-through;
+    padding: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
 
   .price{
-    color: #807e7e;
-    font-size: xx-large;
-  }
+    color: #328f07;
+    font-size: 30px;
+    padding: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  } 
   
   .column button{
     border: none;
@@ -285,6 +295,10 @@ body {
     background-color: #094715;
     padding: 5px;
     color: #ffffff;
+    background-image: url(computerPhotos/snow.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
   .p-heading{
@@ -303,5 +317,33 @@ body {
     color: #000000;
   }
 
+  .card-computer{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 650px;
+  }
+
+  .checkoutCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    margin-left: 0;
+    margin-right: auto;
+    height: 200px;
+  }
+  .checkoutImg{
+    width: 100px;
+  }
+
+  .phoneImg{
+    width: 200px;
+  }
   
   
