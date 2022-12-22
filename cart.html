@@ -13,15 +13,18 @@
   $(document).ready(function(){
     $("#remove-Lenovo").click(function(){
       $("#LenovoCard").hide();
+      sub = document.getElementById("subtotal").value;
+      $("#subtotal").val(sub - 699);
     });
     $("#remove-Macbook").click(function(){
       $("#MacbookCard").hide();
+      sub = document.getElementById("subtotal").value;
+      $("#subtotal").val(sub - 1999);
     });
     $("#remove-Asus").click(function(){
       $("#AsusCard").hide();
-    });
-    $("#show").click(function(){
-      $("#AsusCard").show();
+      sub = document.getElementById("subtotal").value;
+      $("#subtotal").val(sub - 799);
     });
   });
 </script>
@@ -121,8 +124,10 @@
   </div>
 
   <div class="col-25">
-
     <h3>Cart</h3>
+    <label for="subtotal">Subtotal</label>
+    <input type="number" id="subtotal" value="3497" disabled/>
+
     <div class="checkoutCard" id="MacbookCard">
         <h4>Macbook Air</h2>
         <img class="checkoutImg" src="computerPhotos/macbookAirM2.jpeg">
